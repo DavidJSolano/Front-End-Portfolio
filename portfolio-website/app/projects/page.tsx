@@ -52,30 +52,6 @@ const projects = [
     live: "https://solano-weather-app.vercel.app/",
     slug: "weather-dashboard",
   },
-  {
-    id: 5,
-    title: "Recipe Finder",
-    description: "A web application that helps users find recipes based on available ingredients.",
-    image: "/placeholder.svg?height=300&width=600&text=Recipe+Finder",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Spoonacular API"],
-    challenges: "Creating an efficient search algorithm and managing complex filtering options.",
-    outcomes: "Featured in a cooking magazine and reached 10,000+ monthly active users.",
-    github: "https://github.com",
-    live: "https://example.com",
-    slug: "recipe-finder",
-  },
-  {
-    id: 6,
-    title: "Fitness Tracker",
-    description: "A mobile-responsive application for tracking workouts and fitness progress.",
-    image: "/placeholder.svg?height=300&width=600&text=Fitness+Tracker",
-    technologies: ["React Native", "Firebase", "D3.js", "TypeScript"],
-    challenges: "Designing an intuitive UI for complex fitness data and ensuring cross-platform compatibility.",
-    outcomes: "Helped users achieve their fitness goals with a 4.8/5 rating on app stores.",
-    github: "https://github.com",
-    live: "https://example.com",
-    slug: "fitness-tracker",
-  },
 ]
 
 export default function ProjectsPage() {
