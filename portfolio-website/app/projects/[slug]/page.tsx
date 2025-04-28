@@ -34,7 +34,7 @@ const projects = [
     live: "https://github.com/DavidJSolano/OmniscienceAI",
     slug: "omniscienceai",
     longDescription: `
-      OmniscienceAI is an AI reponds to any question that a user has. 
+      OmniscienceAI is an AI reponds to any question that a user has. Using speech-to-text, OmniscienceAI is able to understand real dialect and respond in real time. 
     `,
   },
   {
