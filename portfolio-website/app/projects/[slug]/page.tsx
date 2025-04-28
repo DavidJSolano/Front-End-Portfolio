@@ -25,35 +25,17 @@ const projects = [
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team features.",
-    image: "/placeholder.svg?height=300&width=600&text=Task+App",
-    technologies: ["React", "Firebase", "Tailwind CSS", "Redux"],
-    challenges: "Implementing real-time synchronization across multiple users and devices.",
-    outcomes: "Adopted by 15+ teams with positive feedback on usability and performance.",
-    github: "https://github.com",
-    live: "https://example.com",
-    slug: "task-management-app",
+    title: "Omniscience AI",
+    description: "An AI personal assistant that responds to any question I provde it.",
+    image: "/omniscienceai.jpg",
+    technologies: ["OpenAI", "Python", "Raspberry Pi OS"],
+    challenges: "Implementing real-time assistant that responds optimally.",
+    github: "https://github.com/DavidJSolano/OmniscienceAI",
+    live: "https://github.com/DavidJSolano/OmniscienceAI",
+    slug: "omniscienceai",
     longDescription: `
-      The Task Management App was designed to help teams collaborate effectively on projects.
-      It features real-time updates, task assignment, due dates, priority levels, and team management.
-      
-      Built with React for the frontend and Firebase for the backend, the app leverages Firestore's
-      real-time database capabilities to ensure all team members see the latest updates instantly.
-      Redux was used for state management, and Tailwind CSS for styling.
-      
-      The biggest challenge was implementing real-time synchronization that would work reliably
-      across multiple users and devices. This was solved by carefully designing the data structure
-      and implementing optimistic UI updates.
-      
-      The app has been adopted by over 15 teams, with users praising its intuitive interface and
-      reliable performance. It has helped teams improve their productivity and project completion rates.
+      OmniscienceAI is an AI reponds to any question that a user has. 
     `,
-    screenshots: [
-      "/placeholder.svg?height=300&width=600&text=Screenshot+1",
-      "/placeholder.svg?height=300&width=600&text=Screenshot+2",
-      "/placeholder.svg?height=300&width=600&text=Screenshot+3",
-    ],
   },
   {
     id: 3,
